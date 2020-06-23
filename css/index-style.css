@@ -1,0 +1,413 @@
+*
+{
+	font-family: 'segoe ui light' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.clr
+{
+	clear: both;
+}
+
+.brdr
+{
+	width:100%;
+	height: 3px;
+	background-color:#FFF;
+}
+
+.nav-part
+{
+	background-image:url('../images/header-bg.jpg');
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	color:#FFF;
+	height:800px;
+}
+
+a
+{
+	color:#FFF;
+}
+
+a:hover
+{
+	transition: all .4s;
+	color:rgb(230, 230, 0);
+}
+.nav1
+{
+	width: 100%;
+	position: absolute;
+	position: fixed;
+	z-index: 99999999999;
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 2px 3px #808080;
+}
+
+.nav1 ul li
+{
+	list-style: none;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+}
+
+
+.nav1-caption
+{
+	margin: 0px 30px;
+	overflow: auto;
+}
+
+.nav1-caption ul li
+{
+	float:right;
+}
+
+.icons1
+{
+	margin: 0px 50px;
+}
+
+.logo
+{
+	margin: 0px 50px;
+	padding: 5px;
+	float: left;
+}
+
+.nav2
+{
+	float: right;
+}
+
+.nav2 ul li
+{
+	margin: 5px;
+	float:left;
+}
+.nav2-part
+{
+	margin: 0px 30px;
+	overflow: auto;
+}
+
+.scnd-nav
+{
+	width:99%
+}
+
+.nav1 ul li:hover ul li a
+{
+	color:rgb(230, 230, 0);
+}
+
+.ul li a img
+{
+	size:cover;
+	border:solid 1px #FFF;
+}
+
+.layer
+{
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.nav-caption
+{
+	font-family: tahoma;
+	padding:0;
+	height: 400px;
+	width:65%;
+	position: absolute;
+	top:40%;
+	left:10%;
+}
+
+.nav-caption .btn
+{
+	font-weight: 300;
+	margin-top:25px;
+	color: #000;
+	background-color: #E6E600;
+	border:1px solid #E6E600;
+	padding: 15px 50px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.btn:hover
+{
+	background-color:transparent;
+	border:1px solid #E6E600;
+	color: #FFF;
+}
+
+.nav-caption h1
+{
+	font-stretch: 20px;
+	font-weight:bolder;
+	font-size: 60px;
+	margin: 25px 0px;
+}
+
+.nav-caption h2
+{
+	font-weight: 200;
+}
+
+.center
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services
+{
+	margin:20px 0px;
+	width:85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service
+{
+	width: 25%;
+	padding:20px;
+	margin: 20px 0px 10px 20px;
+	transition: all .5s;
+	cursor:pointer
+}
+
+.service img
+{
+	width: 100%;
+
+}
+
+.service h4
+{
+	font-weight: bold;
+	font-size:large;
+	margin:15px 0px;
+}
+
+.service p
+{
+	color:#8c8c8c;
+	margin:10px 0px;
+}
+
+.caption
+{
+	margin-bottom:50px;
+}
+
+.caption h3
+{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top:20px;
+}
+
+.caption p
+{
+	text-align: center;
+	color: #8c8c8c;
+}
+
+.service:hover
+{
+	background-color:rgb(230, 230, 0);
+}
+
+.pages
+{
+	width: 90%;
+	margin: 10px 15px;
+	overflow: auto;
+}
+
+.page
+{
+	cursor: pointer;
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	margin:20px 15px;
+	padding: 10px 10px 70px 10px;
+	transition: all .5s;
+}
+
+.page:hover
+{
+	background-color: rgb(230, 230, 0);
+	box-shadow:-10px 10px 8px #808080;
+}
+
+.page h3
+{
+	font-size: 25px;
+	margin: 15px 0px;
+}
+
+.page p
+{
+	color: #8c8c8c;
+}
+
+.numbers-part
+{
+	background-color: #e6e600;
+	height:400px;
+	margin:40px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.numbers
+{
+	overflow: auto;
+}
+
+.number
+{
+	float: left;
+	box-sizing: border-box;
+	margin: 20px;
+}
+
+.number span
+{
+
+	font-size:50px;
+	font-weight:900;
+}
+
+.number p
+{
+	font-weight:500;
+	color: #8c8c8c;
+}
+
+.img
+{
+	width: 100%;
+}
+
+.imgs
+{
+	width:90%;
+	margin: auto;
+}
+
+.imgs img
+{
+	margin-left: 26px;
+	margin-bottom: 30px;
+}
+
+.about-part
+{
+	background-color:rgb(242, 242, 242);
+	padding: 0px 0px;
+	margin: 50px 0px;
+
+}
+
+.abouts
+{
+	width: 90%;
+	margin:auto;
+	overflow: auto;
+}
+
+.abouts .about
+{
+	cursor: pointer;
+	width:20%;
+	margin: 20px 0px;
+	margin-left:4%;
+	position: relative;
+	float: left;
+	transition: all 1s;
+}
+
+.abouts .about .flow
+{
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+	height:50%;
+}
+
+.flow .img-scale
+{
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s;
+}
+
+.about .date
+{
+	color: #FFF;
+	background-color: #000;
+	width: 45%;
+	text-align: center;
+	margin:10px 0px;
+}
+
+.about .title-desc
+{
+	font-weight:bold;
+	font-size:1.17em;
+	margin: 10px 0px;
+	transition: all 0.5s;
+}
+
+.about .desc
+{
+	color: #8c8c8c;
+	margin: 10px 0px;
+}
+
+.float
+{
+	float: left;
+}
+
+.about:hover img
+{
+	transform: scale(1.1,1.1);
+}
+
+.about:hover .title-desc
+{
+	color:rgb(179, 179, 0);
+}
+
+.contact-part
+{
+	color: #FFF;
+	background-color: rgb(0, 0, 26);
+	overflow: auto;
+}
+
+.thirdW
+{
+	width: 32.33333333%;
+	box-sizing: border-box;
+	float: left;
+}
